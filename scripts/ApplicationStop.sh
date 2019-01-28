@@ -1,6 +1,6 @@
 #!/bin/bash
-if [ `docker ps | grep cc104devops-repo | wc -l`  = 1 ]
+if [ `docker ps | grep yoda | wc -l`  = 1 ]
 then
-        docker stop cc104devops-repo
-        docker rm  cc104devops-repo
+        docker stop yoda
+        docker rm  yoda
 fi
